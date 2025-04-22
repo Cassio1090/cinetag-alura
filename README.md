@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+## Cinetag
+O Cinetag é uma aplicação web do curso de React da alura. Ele se trata de um site similar a youtube.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ✨ Funcionalidades
+Listagem dinâmica de produtos via API 
+Navegação entre paginas "Home" e "Favoritos"
+Funcionalidade de favoritar vídeos
 
-## Available Scripts
+## 🚀 Tecnologias utilizadas
+- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white): useState, useEffect, useParams
+- ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+- ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react) Context para a criação do context do Favoritos 
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-In the project directory, you can run:
+## 📍 Rotas da Aplicação 
 
-### `npm start`
+Rotas Descrições
+/home	pagina home onde lista todos os videos
+/favoritos	pagina para ver os videos favoritados
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📦 Como rodar o projeto
+Pré-requisitos
 
-### `npm test`
+NodeJS 
+Git 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Clone o repositório:
+git clone https://github.com/Cassio1090/cinetag-alura
+2.Acesse a pasta do projeto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd cinetag
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3.Instale o json-server globalmente (caso o db.json seja criado dentro da aplicação):
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install -g json-server
 
-### `npm run eject`
+4.Inicie o json-server com o arquivo de dados na pasta especifica do json
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+json-server --watch db.json
+ 
+5.Abra o terminal para iniciar a aplicação no navegador e executer comando npm.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
