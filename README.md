@@ -8,9 +8,9 @@ Funcionalidade de favoritar vídeos
 
 ## 🚀 Tecnologias utilizadas
 - ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-- ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white): useState, useEffect, useParams
+- ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white)
 - ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-- ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react) Context para a criação do context do Favoritos 
+- ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react) 
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -23,14 +23,16 @@ Rotas Descrições
 
 
 ## 📦 Como rodar o projeto
-Pré-requisitos
+### Pré-requisitos
 
 NodeJS 
 Git 
 
 
-Clone o repositório:
+1.Clone o repositório:
+
 git clone https://github.com/Cassio1090/cinetag-alura
+
 2.Acesse a pasta do projeto:
 
 cd cinetag
